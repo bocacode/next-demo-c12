@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{' '}
-            <Image
+            <img
               src="/vercel.svg"
               alt="Vercel Logo"
               className="dark:invert"
